@@ -10,7 +10,6 @@ def odd_or_even(user_number: int, num: int, check: int):
     call it num) and one number to divide by (check). If check divides evenly into num, tell that to the user. If not,
     print a different appropriate message.
     """
-    # user_number = int(input("Provide a number: "))
     if user_number % 2 == 0:
         if user_number % 4 == 0:
             print(f'Your number is {user_number} and this is even number and it is a multiple of 4')
@@ -18,8 +17,6 @@ def odd_or_even(user_number: int, num: int, check: int):
             print(f'Your number is {user_number} and this is even number')
     else:
         print(f'Your number is {user_number} and this is odd number')
-    # num = int(input("Provide a number to check: "))
-    # check = int(input("Provide a divide number: "))
     if num % check == 0:
         print(f'{num}\n{check}\nCheck divides evenly into num')
     else:
