@@ -36,8 +36,6 @@ def less_than_ten_new_list_in_one_line():
 
 def return_list_by_input_number(input_number: int):
     a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
-    # input_number = int(input("Provide a number and program returns list with elements, which are smaller than "
-    #                          "provided number: "))
     list_smaller_than_input_number = [x for x in a if x < input_number]
     print(list_smaller_than_input_number)
 

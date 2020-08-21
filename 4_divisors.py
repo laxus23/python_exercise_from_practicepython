@@ -5,7 +5,6 @@ def number_of_divisors(input_number: int):
     divisors of that number. (If you don’t know what a divisor is, it is a number that divides evenly into another
     number. For example, 13 is a divisor of 26 because 26 / 13 has no remainder.)
     """
-    # input_number = int(input("Provide a number and the u see all of divisors of that number: "))
     x = 1
     list_of_divisors = []
     while x <= input_number:

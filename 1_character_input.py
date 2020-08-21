@@ -12,9 +12,6 @@ def when_user_reach_100_years(name: str, age: int, how_many_copies: int):
     2. Print out that many copies of the previous message on
     separate lines. (Hint: the string "\n is the same as pressing the ENTER button)
     """
-    # name = input("Please provide your name: ")
-    # age = int(input("Please provide your age: "))
-    # how_many_copies = int(input("How many copies of message you need: "))
     current_time = (datetime.datetime.now())
     if age < 100:
         future_age = (100 - age) + current_time.year
