@@ -55,7 +55,7 @@ def players_choice(player: str):
             print("You choose wrong value. Type 1, 2 or 3")
             continue
 
-'1', 'rock', '2', 'scissors', '3', 'paper'
+
 def compare_choices():
     """
     Compare choices and print the winner.
